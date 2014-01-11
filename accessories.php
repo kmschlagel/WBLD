@@ -1,7 +1,11 @@
 
 <?php include 'header.php'; ?>
 
-<div id="sidenav">
+
+
+
+<div id="main">
+    <div id="sidenav">
 
 		<ul id="buttons">
 			<li><a href="details.php">Details</a></li>
@@ -12,10 +16,7 @@
 		
 		<img src="img/docks/free.gif" alt="free deliver in metro area" />
 </div> <!-- end of side_nav -->
-
-
-<div id="main">
-	
+	<div class="main-content">
 	<h1 id="myanchor">Dock Accessories</h1>
 	
 	<p>Walk A Dock&copy; systems are easily customizable.  Add any of the following accessories to make your dock system fit your needs.</p>
@@ -140,6 +141,7 @@
 	</div> <!--end of other_accessories-->
 
 	<p class="tinytext"><a href="#myanchor">back to top</a></p>
+        </div>
 </div> <!-- end of main -->
 
 

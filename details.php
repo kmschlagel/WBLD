@@ -1,9 +1,11 @@
 <?php include 'header.php'; ?>
 
 
-<div id="sidenav">
 
 
+
+<div id="main">
+    <div id="sidenav">
 		<ul id="buttons">
 			<li><a href="details.php"><span class="activepage">Details</span></a></li>
 			<li><a href="accessories.php">Accessories</a></li>
@@ -13,20 +15,8 @@
 		
 		<img src="img/docks/free.gif" alt="free deliver in metro area" />
 </div> <!-- end of side_nav -->
-
-
-<div id="main">
-		
-		<div class="main_photo">
-			<img src="img/docks/DockLake2.jpg" alt="dock on water" width="218" height="144" />
-			<img src="img/docks/DockShore1.jpg" alt="dock on water"
-			width="214" height="146" />
-			<img src="img/docks/DockZigZag1.jpg" alt="dock on water"
-			width="215" height="148" />
-		</div> 
-
+ <div class="main-content">
 	<h1 id="myanchor">Details</h1>
-
 	<h3>Basics</h3>	
 		<ul>
 			<li>Two sizes available: 40" (3' 4") x 10' and our best-selling 4' x 10'. 
@@ -45,7 +35,15 @@
 	
 	
 		<p><a href="tech.html">>> Technical specifications</a></p>
-		
+		</div>
+    <div class="main_photo">
+			<img src="img/docks/DockLake2.jpg" alt="dock on water" width="218" height="144" />
+			<img src="img/docks/DockShore1.jpg" alt="dock on water"
+			width="214" height="146" />
+			<img src="img/docks/DockZigZag1.jpg" alt="dock on water"
+			width="215" height="148" />
+		</div> 
+    </div>
 </div> <!-- end of main -->
 
 

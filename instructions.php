@@ -1,6 +1,10 @@
 <?php include 'header.php'; ?>
 
-<div id="sidenav">
+
+
+
+<div id="main">
+		<div id="sidenav">
 
 		<ul id="buttons">
 			<li><a href="details.php">Details</a></li>
@@ -11,19 +15,8 @@
 		
 		<img src="img/docks/free.gif" alt="free deliver in metro area" />
 </div> <!-- end of side_nav -->
-
-
-<div id="main">
-		
-	
+	<div class="main-content">
 	<h1 id="myanchor">Instructions</h1>
-
-	 <div class="main_photo">
-			<img src="img/docks/CarryingFrame1.jpg" alt="boy holding dock frame" width="214" height="142" />
-			<img src="img/docks/Walking1.jpg" alt="dock on water" width="215" height="137" />
-			<img src="img/docks/DockZigZag1.jpg" alt="uninstalled dock on lawn" width="214" height="142" />
-			<img src="img/docks/2X6CedarSection1.jpg" alt="uninstalled section in shop" width="215" height="167" />
-		</div> 
 
 	<h2>Walking a Section</h2>
 	
@@ -85,6 +78,13 @@
 		<p class="tinytext"><a href="development/installation_instructions.pdf" target="blank">Print full pdf version</a></p>
 		</br>
 		<p class="tinytext"><a href="#myanchor">back to top</a></p>
+     <div class="main_photo">
+			<img src="img/docks/CarryingFrame1.jpg" alt="boy holding dock frame" width="214" height="142" />
+			<img src="img/docks/Walking1.jpg" alt="dock on water" width="215" height="137" />
+			<img src="img/docks/DockZigZag1.jpg" alt="uninstalled dock on lawn" width="214" height="142" />
+			<img src="img/docks/2X6CedarSection1.jpg" alt="uninstalled section in shop" width="215" height="167" />
+		</div> 
+    <div class="main-content">
 </div> <!-- end of main -->
 
 
