@@ -29,15 +29,16 @@
     <div id="header" class="clearfix">
         <div id="logo">
         <a href="index.php"><img src="img/walkadock_logo.jpg" width="206" height="92"/></a>
-          <div id="fb">
-          <a href="http://www.facebook.com/pages/White-Bear-Lift-Dock-Inc/353477108006953" target="blank"><img src="img/social/facebook.png" alt="facebook logo" width="30" height="29"></img></a>
-            </div>	
-        </div> <!-- end of logo div -->
+        </div> <!--/#logo -->
+        
+        <div id="phone">
+         <p>Give us a call! (651) 653-6476</p>	
+        </div> <!-- /#phone -->
     
         <div id="nav" class="clearfix">
                 <ul>
                     <li><a href="docks.php" >Docks</a>
-                        <ul>
+                        <ul id="subnav">
                             <li><a href="details.php">Details</a></li>
                             <li><a href="accessories.php">Accessories</a></li>
                             <li><a href="instructions.php">Instructions</a></li>
@@ -52,10 +53,10 @@
                     
                 </ul>
         </div> <!-- end of nav -->
+    </div> <!--/#header-->
+</div> <!--/#header-wrapper-->
 
-    </div> <!--/header--->
 
-</div> <!-- end of header-wrapper -->
     
 <!--start body-->
 <div id="wrapper">

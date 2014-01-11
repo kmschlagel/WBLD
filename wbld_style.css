@@ -1,20 +1,48 @@
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
-p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
-img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figure, figcaption, hgroup, 
-menu, footer, header, nav, section, summary, time, mark, audio, video {
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
 
-
-html, body {height: 100%;}
-
-body {
-	background-color: #ffffff;
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 .clearfix:after {
@@ -31,20 +59,43 @@ body {
 .clearfix { display: block; }
 /* close commented backslash hack */
 
+/*GLOBAL STYLES*/
+
+
+html, body {
+    height: 100%;
+    background-color: #ffffff;
+    font-family: 'Verdana', 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    color: #006699;
+}
+
+p, li, a {
+    font-size: 13px;
+}
+
 /*HEADER*/
 
 #header-wrapper {
 	width: 100%;
 	/*border: 1px solid red;*/
-    background-color: #4775A3;
+    background-color: #006699;
+    -webkit-box-shadow: 0 3px 3px 0 #999999;
+box-shadow: 0 3px 3px 0 #999999;
+    position: fixed;
+    top: 0;
+    z-index: 999;
 
 }
 
 #header {
-    background-color: #4775A3;
+    background-color: #006699;
     width: 955px;
     margin: 0px auto;
-    padding-top: 20px;
+    padding-top: 45px;
     /*border: solid 1px black;*/
     position: relative;
 }
@@ -55,12 +106,17 @@ body {
     float: left;
 }
 
-#header #logo #fb {
-	position: absolute;
-	right: 10px;
-	top: 5px;
+#phone{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #99ccff;
 	/*border: 1px solid blue;*/
 
+}
+
+#phone p {
+    font-size: 14px;
 }
 
 
@@ -68,40 +124,46 @@ body {
 PRIMARY NAVIGATION 
 ********************/
 #nav {
-	background-color: #4775A3;
+	background-color: #006699;
     padding-top: 10px;
     /*border: solid 1px black;*/
     position: absolute;
-    bottom: 5px;
+    bottom: 0px;
     right: 0px;
+    
 
-}
-
-#nav p {
-	font-family: Verdana, Arial, sans-serif;
-	float: left; 
-	margin-left: 20px;
-	color: #ffffff;	
 }
 
 #nav a {
 	text-decoration: none;
-	color: #ffffff;	
+	color: #ffffff;
+    font-size: 14px;
 			
 }
 
 #nav ul {
 	/*border: 1px solid red;*/
 	float: right;
+    background-color: #006699;
 }
 
 #nav ul li {
-	margin-right: 30px;
-	font-family: Verdana, Arial, sans-serif;
 	/*border: 1px solid blue;*/ 
 	float: left;
 	list-style-type: none;
 	position: relative;
+
+}
+
+#nav ul li a  {
+	text-decoration: none;
+	display: block;
+    padding: 5px 20px;
+}
+
+#nav ul li a:hover  {
+	background-color: #99ccff;
+    color: #006699;
 
 }
 
@@ -110,10 +172,8 @@ PRIMARY NAVIGATION
 
 }
 
-#nav li ul {
-	/*border: 1px solid green;*/
+#subnav {
 	position: absolute;
-	width: 120px;
 	display: none;
 	-webkit-border-radius: 3px;
 -moz-border-radius: 3px;
@@ -122,27 +182,15 @@ border-radius: 3px;
 }
 
 
-#nav li ul li {
-	width: 90%;
+#subnav li {
+	width: 100%;
 	font-size: 90%;
-	padding: 5px;
+    text-align: left;
 }
 
-#nav ul li a  {
-	text-decoration: none;
-	display: block;
-}
 	
 #nav ul li a:visited {
 	
-	
-}
-
-#nav ul li a:hover {
-	color: #99ccff;
-	/*background-color: #333;*/
-	display: block;
-
 	
 }
 
@@ -161,7 +209,8 @@ HOME PAGE MAIN DIV
 
 
 #wrapper {
-	width: 955px;
+	width: 945px;
+    padding: 150px 5px 0px 5px;
 	min-height: 1000px;
 	margin: 0px auto;
     border-right: solid 1px #999;
@@ -181,8 +230,6 @@ box-shadow: 0px 5px 5px 5px #333;*/
 	
 	
 }
-
-
 
 #index_main .main_photo {
 	width: 350px;
