@@ -14,84 +14,53 @@ menu, footer, header, nav, section, summary, time, mark, audio, video {
 html, body {height: 100%;}
 
 body {
-	background-image: url(img/lakes/water3.jpg);
-	background-repeat: repeat;
-	background-color: #99ccff;
+	background-color: #ffffff;
 }
 
-#header, #main, #index_main, #sidenav, #footer {
-	margin-top: 10px;
-	}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
 
-#wrapper {
-	background-image: url(img/wood/boards.jpg);
-	background-repeat: repeat-y;
-	width: 800px;
-	min-height: 1000px;
-	margin: 0px auto;
-	padding-left: 50px;
-	padding-right: 50px;
-	
+/*HEADER*/
+
+#header-wrapper {
+	width: 100%;
+	/*border: 1px solid red;*/
+    background-color: #4775A3;
 
 }
-		
 
 #header {
-	width: 800px;
-	min-height: 280px;
-	/*border: 1px solid black;*/
-
+    background-color: #4775A3;
+    width: 955px;
+    margin: 0px auto;
+    padding-top: 20px;
+    /*border: solid 1px black;*/
+    position: relative;
 }
 
 #header #logo {
-	/*order: 1px solid red;*/
-	padding-top: 5px;
-	position: relative;
-
+	padding: 0px;
+    margin: 0px;
+    float: left;
 }
 
 #header #logo #fb {
 	position: absolute;
 	right: 10px;
-	bottom: 5px;
+	top: 5px;
 	/*border: 1px solid blue;*/
 
-}
-
-
-#slideshow-div {
-	/*border: 1px solid blue;*/
-	width: 100%;
-	min-height: 177px;
-	position: relative;
-}
-
-.rs-slideshow {
-    /*border: 12px solid #444;*/
-    height: 200px;
-    /*margin: 24px auto;*/
-    overflow: hidden;
-    position: relative;
-    width: 800px;
-}
- 
-.rs-slideshow .slide-container {
-    background-color: #fff;
-    height: 100%;
-    left: 0;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
- 
-.rs-slideshow .slide-container img {
-    position: absolute;
-}
- 
-/*    Hide the slide data container    */
-.rs-slideshow .slides {
-    display: none;
 }
 
 
@@ -99,14 +68,12 @@ body {
 PRIMARY NAVIGATION 
 ********************/
 #nav {
-	margin: 0px;
-	padding-top: 5px;
-	height: 25px;
-	/*border: 1px solid blue;*/
-	width: 100%;
-	float: right;
-	background-color: #666;
-	background-color: rgba(50, 50, 50, 0.8);
+	background-color: #4775A3;
+    padding-top: 10px;
+    /*border: solid 1px black;*/
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
 
 }
 
@@ -114,12 +81,12 @@ PRIMARY NAVIGATION
 	font-family: Verdana, Arial, sans-serif;
 	float: left; 
 	margin-left: 20px;
-	color: #fff;	
+	color: #ffffff;	
 }
 
 #nav a {
 	text-decoration: none;
-	color: #fff;
+	color: #ffffff;	
 			
 }
 
@@ -148,7 +115,6 @@ PRIMARY NAVIGATION
 	position: absolute;
 	width: 120px;
 	display: none;
-	background-color: #333;
 	-webkit-border-radius: 3px;
 -moz-border-radius: 3px;
 border-radius: 3px;
@@ -164,12 +130,10 @@ border-radius: 3px;
 
 #nav ul li a  {
 	text-decoration: none;
-	color: #fff;
 	display: block;
 }
 	
 #nav ul li a:visited {
-	color: #fff;
 	
 	
 }
@@ -194,6 +158,15 @@ border-radius: 3px;
 /******************* 
 HOME PAGE MAIN DIV 
 *********************/
+
+
+#wrapper {
+	width: 955px;
+	min-height: 1000px;
+	margin: 0px auto;
+    border-right: solid 1px #999;
+    border-left: solid 1px #999;
+}
 
 #index_main {
 	width: 100%;

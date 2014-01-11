@@ -25,72 +25,40 @@
 
 <body>
 
+<div id="header-wrapper" class="clearfix">
+    <div id="header" class="clearfix">
+        <div id="logo">
+        <a href="index.php"><img src="img/walkadock_logo.jpg" width="206" height="92"/></a>
+          <div id="fb">
+          <a href="http://www.facebook.com/pages/White-Bear-Lift-Dock-Inc/353477108006953" target="blank"><img src="img/social/facebook.png" alt="facebook logo" width="30" height="29"></img></a>
+            </div>	
+        </div> <!-- end of logo div -->
+    
+        <div id="nav" class="clearfix">
+                <ul>
+                    <li><a href="docks.php" >Docks</a>
+                        <ul>
+                            <li><a href="details.php">Details</a></li>
+                            <li><a href="accessories.php">Accessories</a></li>
+                            <li><a href="instructions.php">Instructions</a></li>
+                            <li><a href="order.php">Pricing/Order Info</a></li>			
+                        </ul>
+                    </li>
+                    
+                    <li><a href="services.php" >Services</a></li>
+                    <li><a href="fabrication.php" >Fabrication</a></li>
+                    <li><a href="about.php" >About</a></li>
+                    <li><a href="contact.php" >Contact</a></li>
+                    
+                </ul>
+        </div> <!-- end of nav -->
+
+    </div> <!--/header--->
+
+</div> <!-- end of header-wrapper -->
+    
+<!--start body-->
 <div id="wrapper">
 
 
-<div id="header">
-	<div id="logo">
-	<a href="index.php"><img src="img/walkadock_logo.jpg" width="206" height="92"/></a>
-	  <div id="fb">
-	  <a href="http://www.facebook.com/pages/White-Bear-Lift-Dock-Inc/353477108006953" target="blank"><img src="img/social/facebook.png" alt="facebook logo" width="30" height="29"></img></a>
-		</div>	
-	</div> <!-- end of logo div -->
-	
-	
-	<div id="slideshow-div" class="rs-slideshow">
-     
-        <div class="slide-container">
-        <img src="slideshow/images/mallard2.jpg"
-            alt="The first image in a slideshow demo." />
-    
-     </div>
-    <ol class="slides">
-        <li>
-            <a href="slideshow/images/sunset.jpg">morzine-2011-a</a>
-        </li>
-        <li>
-            <a href="slideshow/images/marsh.jpg">morzine-2011-a</a>
-        </li>
-        <li>
-            <a href="slideshow/images/greatsunrise.jpg">morzine-2011-a</a>
-        </li>
-        <li>
-            <a href="slideshow/images/lake_boats1.jpg">morzine-2011-a</a>
-        </li>
-        <li>
-            <a href="slideshow/images/sunrise1.jpg">morzine-2011-a</a>
-        </li>
-        <li>
-            <a href="slideshow/images/mooring.jpg">morzine-2011-a</a>
-        </li>
-        <li>
-            <a href="slideshow/images/geese.jpg">morzine-2011-a</a>
-        </li>
-        <li>
-            <a href="slideshow/images/frozen.jpg">morzine-2011-a</a>
-        </li>
-    </ol>
-     
-</div> <!-- end slideshow -->
 
-	
-<div id="nav">
-	<p>(651) 653-6476</p>
-	<ul>
-		<li><a href="docks.php" >Docks</a>
-			<ul>
-				<li><a href="details.php">Details</a></li>
-				<li><a href="accessories.php">Accessories</a></li>
-				<li><a href="instructions.php">Instructions</a></li>
-				<li><a href="order.php">Pricing/Order Info</a></li>			
-			</ul>
-		</li>
-		
-		<li><a href="services.php" >Services</a></li>
-		<li><a href="fabrication.php" >Fabrication</a></li>
-		<li><a href="about.php" >About</a></li>
-		<li><a href="contact.php" >Contact</a></li>
-		
-	</ul>
-</div> <!-- end of nav -->
-</div> <!-- end of header -->

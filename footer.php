@@ -1,3 +1,7 @@
+
+
+</div> <!-- end of wrapper div -->
+
 <div id="footer">
 	<ul>
 		
@@ -14,10 +18,6 @@
 	</div> <!--end webmaster div-->
     
 </div> <!-- end of footer -->
-
-</div> <!-- end of wrapper div -->
-
-
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="slideshow/js/jquery.rs.slideshow.js"></script>
