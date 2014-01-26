@@ -4,7 +4,7 @@
 
 <div class="main_photo">
 			<img src="img/docks/DockLake2_med.jpg" alt="dock on water" width="347" height="239" />
-			<img src="img/docks/DockShore2_med.jpg" width="350" height="199" alt="aluminum boat hoist" />
+			<!--<img src="img/docks/DockShore2_med.jpg" width="350" height="199" alt="aluminum boat hoist" />-->
 			
 </div> <!-- end of main_photo div -->
 

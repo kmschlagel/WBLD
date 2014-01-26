@@ -31,12 +31,8 @@
         <a href="index.php"><img src="img/walkadock_logo.jpg" width="206" height="92"/></a>
         </div> <!--/#logo -->
         
-        <div id="phone">
-         <p>Give us a call! (651) 653-6476</p>	
-        </div> <!-- /#phone -->
-    
         <div id="nav" class="clearfix">
-                <ul>
+                <ul id="navlist">
                     <li><a href="docks.php" >Docks</a>
                         <ul id="subnav">
                             <li><a href="details.php">Details</a></li>
@@ -51,6 +47,9 @@
                     <li><a href="about.php" >About</a></li>
                     <li><a href="contact.php" >Contact</a></li>
                     
+                </ul>
+                <ul id="phone">
+                    <li><a href="tel://651-653-6476">(651) 653-6476</a></li>
                 </ul>
         </div> <!-- end of nav -->
     </div> <!--/#header-->

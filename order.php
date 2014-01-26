@@ -3,7 +3,7 @@
 
 
 
-<div id="main">
+<div id="main" class="clearfix">
 		<div id="sidenav">
 
 
@@ -11,7 +11,7 @@
 			<li><a href="details.php" >Details</a></li>
 			<li><a href="accessories.php" >Accessories</a></li>
 			<li><a href="instructions.php" >Instructions</a></li>
-			<li><a href="order.php"><span class="activepage">Pricing/Orders</span></a></li>
+			<li><a href="order.php" class="activepage">Pricing/Orders</a></li>
 		</ul>
 		
 		<img src="img/docks/free.gif" alt="free deliver in metro area" />
@@ -23,13 +23,9 @@
 
 		<p><a href="contact.php">Contact us</a> via email or by phone at any time.  To request specific information or to ask questions, please fill out our <a href="contact.php">contact</a> form.  Our fabrication shop and warehouse are open for tours upon appointment.  If you would like to see an installed Walk A Dock&copy;, we have several available for touring on White Bear Lake in Mahtomedi, Minnesota.
 		</p> 
-		<p><strong>Free Delivery Areas by County:</strong> Anoka, Hennepin, Ramsey, Washington, Northern Dakota, Southern Chisago, Western St. Croix and Southwestern Polk.</p>
+		<p><b>Free Delivery Areas by County:</b> Anoka, Hennepin, Ramsey, Washington, Northern Dakota, Southern Chisago, Western St. Croix and Southwestern Polk.</p>
 </div>
-    <div class="main_photo">
-			<img src="img/lakes/rowboats_small.jpg" alt="boats by dock" width="215" height="161" />
-			<img src="img/lakes/boatsinharbor_small.jpg" alt="boats packing harbor"
-			width="215" height="143" />
-		</div> 
+
 	
 </div> <!-- end of main -->
 

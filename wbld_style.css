@@ -79,6 +79,14 @@ p {
     color: #333;
 }
 
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 15px; 
+}
+
 li {
     font-size: 13px;
     color: #333;
@@ -90,7 +98,7 @@ li {
 	/*border: 1px solid red;*/
     background-color: #006699;
     -webkit-box-shadow: 0 3px 3px 0 #999999;
-box-shadow: 0 3px 3px 0 #999999;
+    box-shadow: 0 3px 3px 0 #999999;
     position: fixed;
     top: 0;
     z-index: 999;
@@ -107,22 +115,9 @@ box-shadow: 0 3px 3px 0 #999999;
 }
 
 #header #logo {
-	padding: 0px;
+	padding: 0px 0px 0px 5px;
     margin: 0px;
     float: left;
-}
-
-#phone{
-    position: absolute;
-    top: 5px;
-    right: 5px;
-	/*border: 1px solid blue;*/
-
-}
-
-#phone p {
-    font-size: 14px;
-    color: #99ccff;
 }
 
 
@@ -132,10 +127,13 @@ PRIMARY NAVIGATION
 #nav {
 	background-color: #006699;
     padding-top: 10px;
-    /*border: solid 1px black;*/
     position: absolute;
     bottom: 0px;
     right: 0px;
+    width: 730px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
     
 
 }
@@ -148,23 +146,24 @@ PRIMARY NAVIGATION
 }
 
 #nav ul {
-	/*border: 1px solid red;*/
 	float: right;
     background-color: #006699;
 }
+
 
 #nav ul li {
 	/*border: 1px solid blue;*/ 
 	float: left;
 	list-style-type: none;
 	position: relative;
-
+    
 }
 
 #nav ul li a  {
 	text-decoration: none;
 	display: block;
     padding: 5px 20px;
+
 }
 
 #nav ul li a:hover  {
@@ -181,9 +180,6 @@ PRIMARY NAVIGATION
 #subnav {
 	position: absolute;
 	display: none;
-	-webkit-border-radius: 3px;
--moz-border-radius: 3px;
-border-radius: 3px;
 
 }
 
@@ -203,11 +199,23 @@ border-radius: 3px;
 #nav ul li a:active {
 	color: #6699ff;
 }
-	
-.activepage {
-	color: #99ccff;
+
+
+#phone {
+    float: left !important;
+    padding: 0px !important;
+    margin: 0px !important;
 }
 
+#phone li a {
+    margin: 0px !important;
+    padding: 5px 0px !important;
+}
+
+#phone li a:hover {
+    color: #ffffff !important;
+    background-color: #006699 !important;
+}
 	
 /******************* 
 HOME PAGE MAIN DIV 
@@ -216,8 +224,8 @@ HOME PAGE MAIN DIV
 
 #wrapper {
 	width: 945px;
-    padding: 150px 5px 0px 5px;
-	min-height: 1000px;
+    padding: 150px 0px 0px 0px;
+    min-height: 100%;
 	margin: 0px auto;
     border-right: solid 1px #999;
     border-left: solid 1px #999;
@@ -225,14 +233,10 @@ HOME PAGE MAIN DIV
 
 #index_main {
 	width: 100%;
-	min-height: 1100px;
+    overflow: auto;
 	background-color: #fff;
 	margin-top: 40px;
-	padding-bottom: 40px;
-	background-color: rgba(255, 255, 255, 0.8);
-	/*-webkit-box-shadow: 0px 5px 5px 5px #333;
--moz-box-shadow: 0px 5px 5px 5px #333;
-box-shadow: 0px 5px 5px 5px #333;*/ 
+	padding-bottom: 55px;
 	
 	
 }
@@ -241,10 +245,9 @@ box-shadow: 0px 5px 5px 5px #333;*/
 	width: 350px;
 	height: 600px;
 	float: right;
-	/*border: 1px solid blue;*/
 	margin-top: 85px;
-	padding-left: 20px;
-	padding-right: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
 	padding-bottom: 20px;
 
 }
@@ -341,75 +344,62 @@ LEFT NAVIGATION
 
 
 #sidenav {
-    width: 20%;
+    width: 206px;
 	float: left;
-    /*border: solid 1px blue;*/
-
-}
-
-#sidenav h3 {
-	color: #006699;
-	margin-left: 50px;
-	margin-top: 10px;
+    background-color: #999;
+    margin-top: 0px !important;
 }
 
 #sidenav img {
-	margin-left: 18px;
+	margin-left: 15px;
 }
 
 #buttons {
-	margin-top: 5px;
+    width: 100%;
 	
 }
 
 #buttons li {
-	list-style-type: none;	
+	list-style-type: none;
+    
 }
 
 #buttons li a:link {
 	text-decoration: none;
-	text-align: center;
+	text-align: left;
 	display: block;
-	width: 132px;
-	border: 2px inset #cccccc;
-	padding: 5px 5px; 
 	font-weight: bold;
 	color: #fff;
-	background-color: #666;
-	-webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
-	
+    padding: 8px 0px 8px 15px;
+	background-color: #999;
 	}
 
 #buttons li a:visited {
 	color: #fff;
-	background-color: #666;
+	background-color: #999;
 	text-decoration: none;
-	width: 132px;
-	padding: 4px 5px;
 	}
 
 #buttons li a:hover {
-	color: #99ccff;
-	border: 2px outset #cccccc;
+	color: #ffffff;
+    background-color: #006699;
 	}
-
-#buttons li a:active {
-	color: #6699ff;
-	}
-
-
+	
+#buttons li a.activepage {
+	color: #ffffff;
+    background-color: #006699;
+}
 
 /***************************** 
 MAIN DIV FOR ALL OTHER PAGES 
 *****************************/
 
 #main {
-	min-height: 600px;
-	padding-top: 40px;
-	padding-bottom: 40px;
-    /*border: solid 1px red;*/
+    width: 100%;
+    overflow: auto;
+	background-color: #fff;
+	margin-top: 40px;
+	padding-bottom: 55px;
 
 }
 
@@ -433,13 +423,12 @@ MAIN DIV FOR ALL OTHER PAGES
 #main ul {
 	margin-top: 10px;
 	list-style-type: none;
-	width: 550px;
+	
 }
 
 #main li {
 	color: #333;
 	font-family: Verdana, Aria, sans-serif; 
-	padding-bottom: 15px;
 	}
 
 
@@ -493,7 +482,9 @@ box-shadow: 0px 3px 3px 3px #333;
 .main-content {
     width: 70%;
     float: left; 
-    /*border: solid 1px green;*/
+    padding-left: 40px;
+    padding-bottom: 50px;
+  
 }
 
 p a {
@@ -626,9 +617,9 @@ box-shadow: 0px 5px 5px 5px #333;*/
 #footer {
 	width: 100%;
 	clear: both;
-	min-height: 50px;
+	height: 55px;
+    margin-top: -55px;
 	background-color: #666;
-	background-color: rgba(50, 50, 50, 0.8);
 	position: relative;
 }
 

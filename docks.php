@@ -39,13 +39,13 @@
                 </li>			
             </ul>
     </div>
-     <div class="main_photo">
+    <!-- <div class="main_photo">
         <img src="img/docks/DockLake2_small.jpg" alt="dock on water" width="218" height="144" />
         <img src="img/docks/DockShore1.jpg" alt="dock on water"
         width="214" height="146" />
         <img src="img/docks/DockZigZag1.jpg" alt="dock on water"
         width="215" height="148" />
-    </div> 
+    </div> -->
 
 
 </div> <!-- end of main -->

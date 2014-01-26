@@ -3,53 +3,34 @@
 
 
 
-<div id="main">
-		<div id="sidenav">
-
+<div id="main" class="clearfix">
+    <div id="sidenav">
 		<ul id="buttons">
 			<li><a href="details.php">Details</a></li>
 			<li><a href="accessories.php" >Accessories</a></li>
-			<li><a href="instructions.php" ><span class="activepage">Instructions</span></a></li>
+			<li><a href="instructions.php" class="activepage">Instructions</a></li>
 			<li><a href="order.php">Pricing/Orders</a></li>
 		</ul>
-		
 		<img src="img/docks/free.gif" alt="free deliver in metro area" />
-</div> <!-- end of side_nav -->
-	<div class="main-content">
-	<h1 id="myanchor">Instructions</h1>
-
-	<h2>Walking a Section</h2>
+    </div> <!-- end of side_nav -->
 	
-	<p>Section legs and frames are both light and rigid enough to &quot;walk&quot; out into position. This can be done by one person without having to get in the water.</p>
-			<ul> 
-				
-				<li><span class="blue">Step 1:</span> Stand on edge of shore facing lake.
-				</li>
-				
-				
-				<li><span class="blue">Step 2:</span> Attach legs to aluminum frame at an approximate depth.
-				</li>
-			
-				
-				<li><span class="blue">Step 3:</span> Place the end of the section and legs into the water.
-				</li>
-			
-				
-				<li><span class="blue">Step 4:</span> Grip Frame and tilt section sideways onto one leg. Pivot Section on Leg, advancing the other Leg deeper. Keep walking Section side to side until it is in position. Place on shore or attach Hook-Plates into Hook-Plate Slots on previous Section. Level Section from side-to-side. If Section needs height adjustment use a Winch-Jack, or pull the section back, adjust accordingly, and walk out into place again.
-				</li>
-				
-				
-				<li><span class="blue">Step 5:</span> Place three pallets of decking on the Section, starting at the shore and working out. As each Section is added, carry Frames out to the end and install Legs before walking into position, leveling and installing Decking.
-				</li>
-		
-			</ul> 
-
-			<p class="tinytext"><a href="development/walking_your_dock.pdf" target="blank">Print pdf version</a></p>
-
-			
-			<h2>Installation Tips</h2>
+    <div class="main-content">
+	   <h1 id="myanchor">Instructions</h1>
+	   <h2>Walking a Section</h2>
 	
-	<p><strong>Tools needed:</strong><br>Two <sup>9</sup>&frasl;<sub>16</sub>" wrenches or deep well socket<br>One &frac12;" wrench<br>Level</p>
+	   <p>Section legs and frames are both light and rigid enough to &quot;walk&quot; out into position. This can be done by one person without having to get in the water.</p>
+        <ul> 
+            <li><span class="blue">Step 1:</span> Stand on edge of shore facing lake.</li>
+            <li><span class="blue">Step 2:</span> Attach legs to aluminum frame at an approximate depth.</li>
+            <li><span class="blue">Step 3:</span> Place the end of the section and legs into the water.</li>
+            <li><span class="blue">Step 4:</span> Grip Frame and tilt section sideways onto one leg. Pivot Section on Leg, advancing the other Leg deeper. Keep walking Section side to side until it is in position. Place on shore or attach Hook-Plates into Hook-Plate Slots on previous Section. Level Section from side-to-side. If Section needs height adjustment use a Winch-Jack, or pull the section back, adjust accordingly, and walk out into place again.</li>
+            <li><span class="blue">Step 5:</span> Place three pallets of decking on the Section, starting at the shore and working out. As each Section is added, carry Frames out to the end and install Legs before walking into position, leveling and installing Decking.</li>
+        </ul> 
+        <p class="tinytext"><a href="development/walking_your_dock.pdf" target="blank">Print pdf version</a></p>
+
+			
+        <h2>Installation Tips</h2>
+        <p><strong>Tools needed:</strong><br>Two <sup>9</sup>&frasl;<sub>16</sub>" wrenches or deep well socket<br>One &frac12;" wrench<br>Level</p>
 			<ul> 
 				<li><span class="blue">Cross-Braces</span> (optional): One or two may be needed on sections where water depth is over 3'. Prior to installing the section, attach bottom of the Cross-Brace(s) to the Leg with Small U-Bolt using &frac12;" wrench. Leave the top unbolted until the section is adjusted and leveled to prevent binding.
 				</li>
@@ -78,13 +59,13 @@
 		<p class="tinytext"><a href="development/installation_instructions.pdf" target="blank">Print full pdf version</a></p>
 		</br>
 		<p class="tinytext"><a href="#myanchor">back to top</a></p>
-     <div class="main_photo">
+        <div class="main_photo">
 			<img src="img/docks/CarryingFrame1.jpg" alt="boy holding dock frame" width="214" height="142" />
 			<img src="img/docks/Walking1.jpg" alt="dock on water" width="215" height="137" />
-			<img src="img/docks/DockZigZag1.jpg" alt="uninstalled dock on lawn" width="214" height="142" />
-			<img src="img/docks/2X6CedarSection1.jpg" alt="uninstalled section in shop" width="215" height="167" />
+			<!-- <img src="img/docks/DockZigZag1.jpg" alt="uninstalled dock on lawn" width="214" height="142" />
+			<img src="img/docks/2X6CedarSection1.jpg" alt="uninstalled section in shop" width="215" height="167" /> -->
 		</div> 
-    <div class="main-content">
+    </div> <!--end main-content-->
 </div> <!-- end of main -->
 
 

@@ -4,12 +4,12 @@
 
 
 
-<div id="main">
+<div id="main" class="clearfix">
     <div id="sidenav">
 
 		<ul id="buttons">
 			<li><a href="details.php">Details</a></li>
-			<li><a href="accessories.php"><span class="activepage">Accessories</span></a></li>
+			<li><a href="accessories.php" class="activepage">Accessories</a></li>
 			<li><a href="instructions.php">Instructions</a></li>
 			<li><a href="order.php">Pricing/Orders</a></li>
 		</ul>
@@ -24,8 +24,6 @@
 	<div id="accessories">
 		<h3>Most Popular</h3>
 		<ul>
-
-
 			<li>
 			<h4>Bench</h4><br>
 			Perfect for Relaxing<br>
