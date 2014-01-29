@@ -2,6 +2,10 @@
 
 
 <div id="main">
+      <div class="main_photo clearfix">
+                <img src="img/welding/Welding1.jpg" width="275" height="318"/>
+        </div> <!-- end of main_photo div -->
+    <div class="main-content">
         <h1 id="myanchor">Fabrication</h1>
             <p>White Bear Lift &amp; Dock, Inc. has expanded to now offer welding and fabrication services to the public. All Walk A Dock&copy; welding, and nearly every Walk A Dock&copy; component, is fabricated at our shop. </p>
     
@@ -25,13 +29,8 @@
                     <li>Radial Arm Saw</li>
                     <li>Table Saw</li>
                 </ul>
-         <div class="main_photo">
-                <img src="img/welding/Welder3.jpg" width="300" height="312"/>
-                <img src="img/welding/Welding1.jpg" width="275" height="318"/>
-        </div> <!-- end of main_photo div -->
-    <div class="main-content">
-    </div> <!--end main content-->
-</div> <!-- end of index_main -->
+         </div>
+</div> <!-- end of mian -->
 
 
 
