@@ -174,8 +174,12 @@ PRIMARY NAVIGATION
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    
 
+}
+
+.active-nav {
+    background-color:#ffffff;
+    color: #006699 !important;
 }
 
 #nav a {
@@ -231,19 +235,8 @@ PRIMARY NAVIGATION
     text-align: left;
 }
 
-	
-#nav ul li a:visited {
-	
-	
-}
-
 #nav ul li a:active {
 	color: #33cccc;
-}
-
-.active-nav {
-    background-color:#ffffff;
-    color: #006699 !important;
 }
 
 #phone-num {

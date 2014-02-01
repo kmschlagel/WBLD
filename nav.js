@@ -1,6 +1,3 @@
-$(document).ready(function () {
-    $("a.navitem").click(function () {
-        $("a.navitem").removeClass("active-nav");
-        $(this).addClass("active-nav");
-    });
+$("a.navitem").click(function () {
+    $(this).addClass("active-nav");
 });
