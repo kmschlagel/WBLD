@@ -4,8 +4,7 @@
 <title>White Bear Lift and Dock Home</title>
 
 <link rel="stylesheet" href="wbld_style.css" type="text/css"/>
-
-<link rel="stylesheet" href="fonts/merriweather-fontfacekit/stylesheet.css" type="text/css"/>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -18,8 +17,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
-
+</script>   
 
 </head>
 
@@ -33,7 +31,7 @@
         
         <div id="nav" class="clearfix">
                 <ul id="navlist">
-                    <li><a href="docks.php" >Docks</a>
+                    <li><a href="docks.php" class="navitem">Docks</a>
                         <ul id="subnav">
                             <li><a href="details.php">Details</a></li>
                             <li><a href="accessories.php">Accessories</a></li>
@@ -42,13 +40,13 @@
                         </ul>
                     </li>
                     
-                    <li><a href="services.php" >Services</a></li>
-                    <li><a href="fabrication.php" >Fabrication</a></li>
-                    <li><a href="about.php" >About</a></li>
-                    <li><a href="contact.php" >Contact</a></li>
+                    <li><a href="services.php" class="navitem">Services</a></li>
+                    <li><a href="fabrication.php" class="navitem">Fabrication</a></li>
+                    <li><a href="about.php" class="navitem">About</a></li>
+                    <li><a href="contact.php" class="navitem">Contact</a></li>
                     
                 </ul>
-                <ul id="phone">
+                <ul id="phone-num">
                     <li><a href="tel://651-653-6476">(651) 653-6476</a></li>
                 </ul>
         </div> <!-- end of nav -->

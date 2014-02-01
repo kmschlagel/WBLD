@@ -1,11 +1,11 @@
 <?php include 'header.php'; ?>
 
 
-<div id="main">
-      <div class="main_photo clearfix">
+<div class="content">
+      <div class="left-col clearfix">
                 <img src="img/welding/Welding1.jpg" width="275" height="318"/>
-        </div> <!-- end of main_photo div -->
-    <div class="main-content">
+        </div> <!-- end of left-col -->
+    <div class="right-col">
         <h1 id="myanchor">Fabrication</h1>
             <p>White Bear Lift &amp; Dock, Inc. has expanded to now offer welding and fabrication services to the public. All Walk A Dock&copy; welding, and nearly every Walk A Dock&copy; component, is fabricated at our shop. </p>
     
@@ -30,9 +30,5 @@
                     <li>Table Saw</li>
                 </ul>
          </div>
-</div> <!-- end of mian -->
-
-
-
-
+</div> <!-- end of content -->
 <?php include 'footer.php'; ?>

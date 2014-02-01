@@ -27,5 +27,5 @@ $headers =	'From: <' . $_POST['email'] . '> '. $name ."\r\n" .
 
 
 mail($to, $subject, $message, $headers);
-header('location: http://www.walkadock.com/thankyou.html');
+header('location: http://www.walkadock.com/thankyou.php');
 ?>

@@ -1,10 +1,15 @@
 <?php include 'header.php'; ?>
 
 
-<div id="index_main">
+<div class="content clearfix">
 
 
-<div id="main-content">
+<div class="left-col">
+			<img src="img/docks/UsedLift3.jpg" alt="transporting used lift" />
+			<img src="img/docks/UsedLift4.jpg" alt="transporting used lift" />
+        </div> <!-- end of main_photo dive -->
+
+    <div class="right-col">
 	<h1 id="myanchor">Services</h1>
 		<p>White Bear Lift &amp; Dock, Inc. provides a number of services for your dock, boatlift and shoreline maintenance.</p>
 		
@@ -88,13 +93,6 @@
 			<p>Please visit the MN DNR <a href="http://www.dnr.state.mn.us/invasives/index_aquatic.html" target="blank">Aquatic Invasive Species in Minnesota</a> website to learn how to protect your lake.</p>
 			</br>
 		<p class="tinytext"><a href="#myanchor">back to top</a></p>
-        <div class="main_photo">
-			
-			<img src="img/welding/Clamps1.jpg" alt="clamps in shop" width="350" height="265"/>
-			<img src="img/docks/UsedLift3.jpg" alt="transporting used lift" width="350" height="319" />
-			<img src="img/docks/UsedLift4.jpg" alt="transporting used lift" width="350" height="265"/>
-			
-</div> <!-- end of main_photo dive -->
 </div><!--end main-content-->
 </div> <!-- end of index_main -->
 

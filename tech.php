@@ -1,16 +1,18 @@
 <?php include 'header.php'; ?>
 
-<div id="main" class="clearfix">
-	<div id="sidenav">
-        <ul id="buttons">
-			<li><a href="details.php" class="activepage">Details</a></li>
-			<li><a href="accessories.php" >Accessories</a></li>
-			<li><a href="instructions.php">Instructions</a></li>
-			<li><a href="order.php">Pricing/Orders</a></li>
-		</ul>
-		<img src="img/docks/free.gif" alt="free deliver in metro area" />
-    </div> <!-- end of side_nav -->
-    <div class="main-content">
+<div class="content clearfix">
+    <div class="right-col narrow">
+        <div id="sidenav">
+            <ul id="buttons">
+                <li><a href="details.php" class="activepage">Details</a></li>
+                <li><a href="accessories.php" >Accessories</a></li>
+                <li><a href="instructions.php">Instructions</a></li>
+                <li><a href="order.php">Pricing/Orders</a></li>
+            </ul>
+            <img src="img/docks/free.gif" alt="free deliver in metro area" />
+        </div> <!-- end of side_nav -->
+    </div>
+    <div class="right-col wide">
 	   <h1 id="myanchor">Details</h1>
 	
 	   <h3>Technical Specifications</h3>        
@@ -39,11 +41,7 @@
 		  </ul>
 		  <p><a href="details.php"><< Basic Details</a></p>
 		  <p class="tinytext"><a href="#myanchor">back to top</a></p>
-	</div> <!--end main-content-->
-</div> <!-- end of main -->
-
-
-
-
+	</div> <!--end right-col-->
+</div> <!-- end of content-->
 
 <?php include 'footer.php'; ?>

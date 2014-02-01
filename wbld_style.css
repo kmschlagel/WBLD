@@ -68,29 +68,66 @@ html, body {
     font-family: 'Verdana', 'Arial', sans-serif;
 }
 
-h1 {
-    font-size: 35px;
-    color: #006699;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
 }
 
-p {
-    font-size: 13px;
-    padding-top: 20px;
-    color: #333;
+h1 {
+   font-size: 35px;
+	color: #006699;
+}
+
+h2 {
+
+	color: #333;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 20px;
+    color: #333;
+    margin: 15px 0px 5px 0px; 
 }
 
 h4 {
     font-size: 15px; 
 }
 
-li {
+
+p {
     font-size: 13px;
+    line-height: 20px;
+    padding-top: 20px;
     color: #333;
 }
+
+p a {
+	color: #006699;
+	font-family: Verdana, Aria, sans-serif; 
+	text-decoration: none;
+}
+
+p a:link {
+	color: #006699;
+
+}
+
+p a:visited {
+	color: #006699;
+
+}
+
+p a:hover {
+	color: #33cccc;
+    text-decoration: underline;
+}
+
+p a:active {
+	color: #6699ff;
+    text-decoration: underline; 
+}
+
+
 /*HEADER*/
 
 #header-wrapper {
@@ -131,6 +168,9 @@ PRIMARY NAVIGATION
     bottom: 0px;
     right: 0px;
     width: 730px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -140,9 +180,7 @@ PRIMARY NAVIGATION
 
 #nav a {
 	text-decoration: none;
-	color: #ffffff;
-    font-size: 14px;
-			
+	color: #ffffff;			
 }
 
 #nav ul {
@@ -152,7 +190,6 @@ PRIMARY NAVIGATION
 
 
 #nav ul li {
-	/*border: 1px solid blue;*/ 
 	float: left;
 	list-style-type: none;
 	position: relative;
@@ -162,12 +199,13 @@ PRIMARY NAVIGATION
 #nav ul li a  {
 	text-decoration: none;
 	display: block;
-    padding: 5px 20px;
+    padding: 5px 18px;
+    border: solid 1px #006699;
 
 }
 
 #nav ul li a:hover  {
-	background-color: #99ccff;
+	background-color: #ffffff;
     color: #006699;
 
 }
@@ -178,6 +216,9 @@ PRIMARY NAVIGATION
 }
 
 #subnav {
+    font-family: 'Verdana', 'Arial', sans-serif !important;
+    font-weight: normal !important;
+    font-size: 16px !important; 
 	position: absolute;
 	display: none;
 
@@ -197,22 +238,26 @@ PRIMARY NAVIGATION
 }
 
 #nav ul li a:active {
-	color: #6699ff;
+	color: #33cccc;
 }
 
+.active-nav {
+    background-color:#ffffff;
+    color: #006699 !important;
+}
 
-#phone {
+#phone-num {
     float: left !important;
     padding: 0px !important;
     margin: 0px !important;
 }
 
-#phone li a {
+#phone-num li a {
     margin: 0px !important;
     padding: 5px 0px !important;
 }
 
-#phone li a:hover {
+#phone-num li a:hover {
     color: #ffffff !important;
     background-color: #006699 !important;
 }
@@ -227,126 +272,90 @@ HOME PAGE MAIN DIV
     padding: 150px 0px 0px 0px;
     min-height: 100%;
 	margin: 0px auto;
-    border-right: solid 1px #999;
-    border-left: solid 1px #999;
+    border-right: solid 1px #ccc;
+    border-left: solid 1px #ccc;
+   
 }
 
-#index_main {
+.content{
 	width: 100%;
     overflow: auto;
 	background-color: #fff;
 	margin-top: 40px;
 	padding-bottom: 55px;
-	
+    
 	
 }
-.main_photo {
-    width: 33%;
+.right-col {
+    width: 60%;
+    float: left;
+    padding: 0% 2% 0% 5%;
+    overflow: auto;
+	background-color: #fff;
+	margin-top: 40px;
+	padding-bottom: 55px;
+}
+
+.left-col {
+    margin-top: 40px;
+    padding-left: 2%;
+    width: 30%;
 	float: left;
-    border: solid 1px red; 
-
+	
 }
 
-.main_photo img {
-	padding: 0px;
-	margin-bottom: 20px;
+.left-col.narrow {
+    padding-left: 0 !important;
+    width: 22% !important; 
+}
+
+.right-col.wide {
+    width: 70%;
+   
+}
+	
+.left-col img {
+     width: 100%;
+    height: auto;
+	margin-bottom: 40px;
 	-webkit-border-radius: 5px;
 -moz-border-radius: 5px;
 border-radius: 5px;
--webkit-box-shadow: 0px 3px 3px 3px #333;
--moz-box-shadow: 0px 3px 3px 3px #333;
-box-shadow: 0px 3px 3px 3px #333;
-
-
+-webkit-box-shadow: 0px 2px 2px 2px #999;
+-moz-box-shadow: 0px 2px 2px 2px #999;
+box-shadow: 0px 2px 2px 2px #999;
 }
 
-#announce h3 a:link {
-	color: #006699;
-	text-decoration: none;
-
+.right-col ul li {
+    font-size: 13px;
+    color: #333;
+    margin: 10px 0px 10px 0px;
 }
-
-#announce h3 a:visited {
-	color: #006699;
-	text-decoration: none;
-
-}
-
-#announce h3 a:hover {
-	color: #33cccc;
-	text-decoration: none;
-}
-
-
-#index_main h1 {
-	color: #006699;
-	font-family: Verdana, Arial, sans-serif;
-	padding-top: 35px;
-	padding-left: 24px;	
-}
-
-#index_main h2 {
-	color: #333;
-	font-family: Verdana, Arial, sans-serif;
-	padding-left: 24px;	
-	margin-top: 20px;
-	text-decoration: underline;
-}
-
-#index_main p {
-	color: #333;
-	font-family: Verdana, Arial, sans-serif;
-	padding-top: 12px;
-	padding-left: 24px;
-	padding-right: 24px;
-	
-}
-
-#index_main h3 {
-	color: #006699;
-	font-family: Verdana, Arial, sans-serif;
-	padding-top: 20px;
-	padding-left: 24px;	
-}
-
-
-
-#index_main ul {
-	width: 400px;
-	margin-left: 24px;
-	margin-top: 10px;
-	list-style-type: none;
-
-}
-
-#index_main li {
-	color: #333;
-	font-family: Verdana, Aria, sans-serif; 
-	padding-bottom: 10px;
-	}
-
-#index_main ul li ul {
-	color: #333;
-	font-family: Verdana, Aria, sans-serif; 
-	margin-left: 30px;
-	font-size: 90%;
-	}
 
 
 /*********************** 
 LEFT NAVIGATION 
 **********************/
 
-
 #sidenav {
     width: 206px;
 	float: left;
-    background-color: #999;
-    margin-top: 0px !important;
+    border-right: solid 1px #ccc;
+    padding: 0px 0px 40px 0px !important;
+    
 }
 
 #sidenav img {
 	margin-left: 15px;
+    width: 130px !important;
+    height: 100px !important;
+    box-shadow: none !important;
+    border-radius: none !important;
+    margin: 20px 0px 40px 20px;
+}
+
+#sidenav p {
+   padding: 0px 5px 0px 10px;
 }
 
 #buttons {
@@ -363,15 +372,12 @@ LEFT NAVIGATION
 	text-decoration: none;
 	text-align: left;
 	display: block;
-	font-weight: bold;
-	color: #fff;
-    padding: 8px 0px 8px 15px;
-	background-color: #999;
+	color: #006699;
+    padding: 8px 0px 8px 20px;
 	}
 
 #buttons li a:visited {
-	color: #fff;
-	background-color: #999;
+	color: #006699;
 	text-decoration: none;
 	}
 
@@ -389,140 +395,32 @@ LEFT NAVIGATION
 MAIN DIV FOR ALL OTHER PAGES 
 *****************************/
 
-#main {
-    width: 100%;
-    overflow: auto;
-	background-color: #fff;
-	margin-top: 40px;
-	padding-bottom: 55px;
-
-}
-
-#main h1 {
-	color: #006699;
-	font-family: Verdana, Arial, sans-serif;	
-}
-
-#main h2 {
-	color: #666666;
-	font-family: Verdana, Arial, sans-serif;
-	padding-top: 15px;	
-}
-
-#main h3 {
-	color: #006699;
-	font-family: Verdana, Arial, sans-serif;
-	padding-top: 20px;	
-}
-
-#main ul {
-	margin-top: 10px;
-	list-style-type: none;
-	
-}
-
-#main li {
-	color: #333;
-	font-family: Verdana, Aria, sans-serif; 
-	}
-
-
-
-.main_photo {
-    width: 33%;
-	float: left;
-	/*border: 1px solid black;*/
-}
-	
-.main_photo img {
-    display: block;
-	margin-bottom: 20px;
-    margin-right: 5%;
-    margin-left: 5%;
-	-webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
--webkit-box-shadow: 0px 2px 2px 2px #999;
--moz-box-shadow: 0px 2px 2px 2px #999;
-box-shadow: 0px 2px 2px 2px #999;
-}
-
-#main #accessories ul {
-	/*border: 1px solid black;*/
-	width: 600px;
-
-}
-
-#main #accessories ul li {
+#accessories ul li {
 	width: 250px;
 	height: 315px;
 	float: left;
 	margin-top: 20px;
 	/*border: 1px solid red;*/
-	margin-right: 35px;
+	margin-right: 60px;
 
 }
 
-#main #accessories ul li img {
+#accessories ul li img {
 	padding-top: 15px;
 
 }
 
-#main #other_accessories {
+#other_accessories {
 	clear: both;
 	padding-top: 40px;
 
 }
 
-.main-content {
-    width: 60%;
-    margin-left: 4%;
-    float: left; 
-  
-}
-
-p a {
-	color: #006699;
-	font-family: Verdana, Aria, sans-serif; 
-	text-decoration: none;
-}
-
-p a:link {
-	color: #006699;
-
-}
-
-p a:visited {
-	color: #006699;
-
-}
-
-p a:hover {
-	color: #33cccc;
-}
-
-p a:active {
-	color: #6699ff;
-
-}
-
-
-
 
 /********************
 CONTACT FORM
 *****************/
-#form p {
-	color: #333;
-	font-family: Verdana, Arial, sans-serif;
-	padding-top: 8px;
-	padding-left: 24px;
-	padding-right: 24px;
-	/*border: solid 1px orange;*/
-	
-}
-
-#form {
+form {
 	width: 100%;
 	min-height: 600px;
 	background-color: #fff;
@@ -534,29 +432,11 @@ CONTACT FORM
 box-shadow: 0px 5px 5px 5px #333;*/ 
 }
 
-#form h1 {
-	color: #006699;
-	font-family: Verdana, Arial, sans-serif;
-	padding-top: 35px;
-	margin-left: 24px;	
-	/*border: solid 1px red;*/
-}
-
-#form fieldset {
-	width: 700px;
-	margin: 25px auto 25px;
-	border: 1px solid black;	
-}
-
-#form fieldset legend {
-	padding: 0px 5px;
-}
-
-#form fieldset ul {
+fieldset ul {
 	margin-top: 10px;
 }
 
-#form fieldset ul, fieldset li {
+fieldset ul, fieldset li {
 	border: 0px;
 	padding: 0px;
 	list-style-type: none;
@@ -565,7 +445,7 @@ box-shadow: 0px 5px 5px 5px #333;*/
 
 
 
-#form fieldset label {
+fieldset label {
 	width: 200px;
 	display: inline-block;  
 	/*labels are inline objects.  To maniupulate a label, make sure you change it to inline-block, like an image*/
@@ -575,11 +455,11 @@ box-shadow: 0px 5px 5px 5px #333;*/
 	margin-left: 5px;
 }
 
-#form fieldset li {
+fieldset li {
 	margin-bottom: 20px;
 }
 
-#form fieldset label.checkbox {
+fieldset label.checkbox {
 	display: inline;
 	margin-left: 10px;
 
@@ -587,23 +467,11 @@ box-shadow: 0px 5px 5px 5px #333;*/
 	
 }
 
-#form fieldset label.lbl {
+fieldset label.lbl {
 	float: left;
 	
 	
 }
-
-#form fieldset legend {
-	font-family: Verdana, Arial, sans-serif;
-	color: #006699;
-	font-size: 110%;
-	margin: 5px 0px 25px 0px;
-	
-}
-
-
-
-
 
 /**********************************
  FOOTER STUFF 
@@ -611,24 +479,21 @@ box-shadow: 0px 5px 5px 5px #333;*/
 #footer {
 	width: 100%;
 	clear: both;
-	height: 55px;
-    margin-top: -55px;
+	height: 40px;
+    margin-top: -40px;
 	background-color: #666;
 	position: relative;
 }
 
 
 #footer ul{
-	position: absolute;
-	top: 6px;
-	left: 245px;
-
-	
+    width: 945px;
+    margin: 0 auto;
+    padding: 10px 0px 0px 0px;	
 }
 
-
-
 #footer ul li {
+    color: #fff;
 	display: inline;
 	margin-right: 20px;
 	font-family: Verdana, Arial, sans-serif;
@@ -657,91 +522,30 @@ box-shadow: 0px 5px 5px 5px #333;*/
 	color: #006699;
 }
 
-/*#social {
-	position: absolute;
-	top: 20px;
-	left: 354px;
-}
-
-#social img {
-	float: left;
-	padding: 5px;
-}*/
-
 /***********
 THANK YOU PAGE
 ************/
 
-#wrapper_thanks {
-	background-image: url(img/wood/boards.jpg);
-	background-repeat: repeat-y;
-	width: 800px;
-	min-height: 600px;
-	margin: 0px auto;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-top: 100px;
-}
-
 #thanks {
-	width: 700px;
-	/*border: 1px solid red;*/
+	width: 600px;
+	border: 1px solid #ccc;
+    padding: 20px;
 	min-height: 50px;
-	background-color: #666;
-	background-color: rgba(50, 50, 50, 0.8);
 	margin: 0 auto;
-	
-
+    text-align:center;
 }
 
-#thanks h2 {
-	color: #fff;
-	font-family:'MerriweatherLight';
-	font-size: 100%;
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
-
+#thanks img {
+    width: 350px;
+    margin: 20px auto;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 0px 2px 2px 2px #999;
+-moz-box-shadow: 0px 2px 2px 2px #999;
+box-shadow: 0px 2px 2px 2px #999;
 }
 
-#thanks a {
-	color: #6699ff;
-	font-family: Verdana, Aria, sans-serif; 
-	text-decoration: none;
-	margin-left: 270px;
-}
-
-
-#thanks a:hover {
-	color: #fff;
-}
-
-
-
-
-#webmaster {
-	position: absolute;
-	bottom: 3px;
-	left: 175px;
-	margin: 0 auto;
-
-}
-
-
-#webmaster p {
-	color: #fff;
-
-}
-
-#webmaster p a {
-	color: #6699ff;
-
-}
-
-#webmaster p a:hover {
-	color: #fff
-
-}
 
 /*******************
 miscellaneous wildcard classes

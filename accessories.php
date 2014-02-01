@@ -4,8 +4,9 @@
 
 
 
-<div id="main" class="clearfix">
-    <div id="sidenav">
+<div class="content clearfix">
+    <div class="left-col narrow">
+        <div id="sidenav">
 
 		<ul id="buttons">
 			<li><a href="details.php">Details</a></li>
@@ -15,8 +16,10 @@
 		</ul>
 		
 		<img src="img/docks/free.gif" alt="free deliver in metro area" />
-</div> <!-- end of side_nav -->
-	<div class="main-content">
+        
+            </div> <!-- end of side_nav -->
+    </div>
+	<div class="right-col wide">
 	<h1 id="myanchor">Dock Accessories</h1>
 	
 	<p>Walk A Dock&copy; systems are easily customizable.  Add any of the following accessories to make your dock system fit your needs.</p>
@@ -107,11 +110,7 @@
 			Supports weight of one Section with Decking &amp; two people<br>
 			<img src="img/accessories/JackInstalled1.jpg" alt="winch"  width="148" height="234" />
 			</li>
-
-		
-
-
-		</ul>
+        </ul>
 	</div> <!--end accessories div-->
 	
 	<div id="other_accessories">
@@ -141,8 +140,5 @@
 	<p class="tinytext"><a href="#myanchor">back to top</a></p>
         </div>
 </div> <!-- end of main -->
-
-
-
 
 <?php include 'footer.php'; ?>

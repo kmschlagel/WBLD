@@ -3,18 +3,19 @@
 
 
 
-<div id="main" class="clearfix">
-    
-    <div id="sidenav">
-        <ul id="buttons">
-            <li><a href="details.php">Details</a></li>
-            <li><a href="accessories.php">Accessories</a></li>
-            <li><a href="instructions.php">Instructions</a></li>
-            <li><a href="order.php">Pricing/Orders</a></li>
-        </ul>
-        <img src="img/docks/free.gif" alt="free deliver in metro area" />
-    </div> <!-- end of side_nav -->
-    <div class="main-content">
+<div class="content clearfix">
+    <div class="left-col narrow">
+        <div id="sidenav">
+            <ul id="buttons">
+                <li><a href="details.php">Details</a></li>
+                <li><a href="accessories.php">Accessories</a></li>
+                <li><a href="instructions.php">Instructions</a></li>
+                <li><a href="order.php">Pricing/Orders</a></li>
+            </ul>
+            <img src="img/docks/free.gif" alt="free deliver in metro area" />
+        </div> <!-- end of side_nav -->
+    </div>
+    <div class="right-col wide">
         <h1>Walk A Dock</h1>
             
             <p>Walk A Dock&copy; is a modular dock system with countless possible configurations and customizability. The large leg pads, light weight construction, and rigidity of the frame allow one person to effortlessly walk each section into position without ever getting into the water. </p>
@@ -39,16 +40,7 @@
                 </li>			
             </ul>
     </div>
-    <!-- <div class="main_photo">
-        <img src="img/docks/DockLake2_small.jpg" alt="dock on water" width="218" height="144" />
-        <img src="img/docks/DockShore1.jpg" alt="dock on water"
-        width="214" height="146" />
-        <img src="img/docks/DockZigZag1.jpg" alt="dock on water"
-        width="215" height="148" />
-    </div> -->
-
-
-</div> <!-- end of main -->
+</div> <!-- end of content -->
 
 
 
